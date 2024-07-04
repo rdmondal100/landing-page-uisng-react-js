@@ -67,11 +67,11 @@ if (menuBar.classList.contains('-right-full')) {
 					className='xl:w-[111.49px] h-[20.662px]'
 				/>
 			</div>
-			<div className="menuBar lg:w-full w-76 flex justify-around items-center px-10  bg-Tint-T2  absolute  top-0  flex-col lg:flex-row py-10 gap-10 lg:relative lg:bg-transparent  transition-all ease-in-out duration-500 -right-full lg:right-0  lg:h-20 shadow-lg lg:shadow-none" id="menuBar">
+			<div className="menuBar lg:w-full w-76 flex justify-between xl:ml-32 items-center px-8 xl:gap-12  bg-Tint-T2  absolute  top-0  flex-col lg:flex-row py-10 gap-8 lg:relative lg:bg-transparent  transition-all ease-in-out duration-500 -right-full lg:right-0  lg:h-20 shadow-lg lg:shadow-none" id="menuBar">
 			<div className='menue   lg:inline-flex  '>
-				<ul className='inline-flex justify-center items-start xl:gap-[50px] lg:gap-9 gap-5 flex-col  lg:flex-row'>
+				<ul className='inline-flex justify-center items-start xl:gap-[50px] lg:gap-7 gap-5 flex-col  lg:flex-row'>
 					{menueItems.map((item) => (
-						<li key={item?.name} className='menue-item  hover:text-white scale-100 hover:scale-110 transition-all ease-in-out hover:translate-y-1 duration-500'>
+						<li key={item?.name} className='menue-item lg:hover:text-Brand-Primary  hover:text-white scale-100 hover:scale-110 transition-all ease-in-out hover:translate-y-1 duration-500'>
 							<a href="" className="">
 							{item?.name}
 
@@ -83,13 +83,13 @@ if (menuBar.classList.contains('-right-full')) {
 			<div className='login_signup flex gap-[14px]  justify-center items-center'>
 				<a
 					href=''
-					className='login rounded-[6px] px-[20px] py-[10px] text-white border-white lg:text-Brand-Primary lg:hover:text-white hover:bg-Brand-Primary'
+					className='login rounded-[6px] px-3 py-2 text-white border-white lg:text-Brand-Primary lg:hover:text-white hover:bg-Brand-Primary'
 				>
 					Login
 				</a>
 				<a
 					href=''
-					className='signup bg-Brand-Primary rounded-[6px] px-[20px] py-[10px] text-white'
+					className='signup bg-Brand-Primary rounded-[6px] px-3 py-2 text-white  '
 				>
 					Sign up
 				</a>
