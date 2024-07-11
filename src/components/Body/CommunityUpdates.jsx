@@ -34,8 +34,8 @@ const CommunityUpdates = () => {
 						key={index}
 					>
 						<img src={card.image} alt='' className=" 
-           w-full" />
-						<div className='subCard z-30 -mt-[96px]    flex flex-col text-center gap-[16px] p-[16px] absolute w-4/5  -bottom-24 '>
+           w-full md:w-3/5 md:h-4/5 xl:w-full"/>
+						<div className='subCard z-30 -mt-[96px]    flex flex-col text-center gap-[16px] p-[16px] absolute w-4/5  -bottom-24 md:w-2/5 xl:w-4/5'>
 							<p className='subtitle  text-[20px] font-[600] leading-[28px] text-ellipsis line-clamp-3 '>
 								{card.desc}
 							</p>

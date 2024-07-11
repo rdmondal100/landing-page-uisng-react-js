@@ -23,7 +23,7 @@ const Customars = () => {
   ]
   return (
     <>
-    <div className="image xl:w-[332px] w-full flex items-center justify-center">
+    <div className="image  lg:w-2/5 w-full flex items-center justify-center">
       <img src={image9} alt="" />
     </div>
     <div className="textContent w-full flex flex-col gap-[18px]">
